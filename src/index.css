@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h2{
+    @apply font-[Fredoka] text-center 
+    text-[24px] leading-[28px]
+    md:text-[30px] lg:text-[32px] sm:leading-normal
+  }
+}
+@layer components {
+  .p1{
+    @apply font-[Fredoka] text-center text-white font-normal
+    text-[20px] sm:text-[24px] lg:text-[28px] leading-normal
+  }
+  .p2{
+    @apply font-[Fredoka] text-justify
+    text-[14px] sm:text-[18px] leading-normal
+  }
+  .textNav{
+    @apply font-[Fredoka] font-semibold !cursor-pointer
+    text-center text-[20px] sm:text-[18px] text-white
+  }
+  .textNavMb{
+    @apply font-[Fredoka] font-semibold !cursor-pointer w-full
+    text-center text-[20px] text-white py-[30px] hover:bg-gray-700
+  }
+  .pySection{
+    @apply py-[32px] sm:py-[48px]
+  }
+  .textCuenta{
+    @apply font-[Fredoka] text-center 
+    text-[20px] sm:text-[24px] 
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer utilities {
+  .container{
+    @apply w-[92%] mx-auto
+    max-w-[1110px] xl:w-full
+  }
+
 }
