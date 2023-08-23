@@ -24,28 +24,28 @@ export const NavBar = () => {
                     <div className='flex items-center gap-[32px]'>
                         <Link to="Hero"
                             spy={true}
-                            offset={30}
+                            offset={0}
                             smooth={true}
                             duration={500}>
                             <p className='textNav'>HELADAS EN PERÚ</p>
                         </Link>
                         <Link to="Quienes-somos"
                             spy={true}
-                            offset={30}
+                            offset={0}
                             smooth={true}
                             duration={500}>
                             <p className='textNav'>¿QUIÉNES SOMOS?</p>
                         </Link>
                         <Link to="Conoce-que-donar"
                             spy={true}
-                            offset={30}
+                            offset={790}
                             smooth={true}
                             duration={500}>
                             <p className='textNav'>¿CÓMO COLABORAR?</p>
                         </Link>
-                        <a href='#'>
+                        <div>
                             <BtnDonaAqui />
-                        </a>
+                        </div>
                     </div>
                     :
                     <Hamburger toggled={isOpen} toggle={setOpen}
@@ -59,7 +59,7 @@ export const NavBar = () => {
                 w-full h-[100vh]'>
                     <Link to="Hero"
                         spy={true}
-                        offset={30}
+                        offset={0}
                         smooth={true}
                         duration={500}
                         onClick={()=> setOpen(false)}>
@@ -67,7 +67,7 @@ export const NavBar = () => {
                     </Link>
                     <Link to="Quienes-somos"
                         spy={true}
-                        offset={30}
+                        offset={0}
                         smooth={true}
                         duration={500}
                         onClick={()=> setOpen(false)}>
@@ -75,18 +75,15 @@ export const NavBar = () => {
                     </Link>
                     <Link to="Conoce-que-donar"
                         spy={true}
-                        offset={30}
+                        offset={780}
                         smooth={true}
                         duration={500}
                         onClick={()=> setOpen(false)}>
                         <p className='textNavMb'>¿CÓMO COLABORAR?</p>
                     </Link>
-                    <a href='#'
-                        className='max-w-[206px] mx-auto'>
-                        <div className='mt-[30px]'>
+                    <div className='max-w-[206px] mx-auto mt-[30px]'>
                             <BtnDonaAqui />
-                        </div>
-                    </a>
+                    </div>
                 </div>
             }
         </header>
