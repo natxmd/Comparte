@@ -18,9 +18,9 @@ export const Footer = () => {
           </img>
           <p>¡Síguenos!</p>
           <div className='flex items-center justify-center gap-[16px]'>
-            <a href='#' target='_blank' rel='noreferrer'><Fb /></a>
-            <a href='#' target='_blank' rel='noreferrer'><Ig /></a>
-            <a href='#' target='_blank' rel='noreferrer'><In /></a>
+            <a href='http://www.facebook.com/compartepe' target='_blank' rel='noreferrer'><Fb /></a>
+            <a href='http://www.instagram.com/comparte.pe' target='_blank' rel='noreferrer'><Ig /></a>
+            <a href='https://www.linkedin.com/company/comparteperu/' target='_blank' rel='noreferrer'><In /></a>
           </div>
           <p>hola@comparteperu.com</p>
           <p>
@@ -43,9 +43,9 @@ export const Footer = () => {
             </img>
             <div className='grid gap-[12px]'>
               <p>¡Síguenos!</p>
-              <Rrss icon={'svg/fb.svg'} rs="/compartepe" />
-              <Rrss icon={'svg/ig.svg'} rs="/compartepe" />
-              <Rrss icon={'svg/in.svg'} rs="/company/comparteperu" />
+              <Rrss icon={'svg/fb.svg'} rs="/compartepe" link={'http://www.facebook.com/compartepe'}/>
+              <Rrss icon={'svg/ig.svg'} rs="/compartepe" link={'http://www.instagram.com/comparte.pe'}/>
+              <Rrss icon={'svg/in.svg'} rs="/company/comparteperu" link={'https://www.linkedin.com/company/comparteperu/'}/>
             </div>
             <div className='grid gap-[12px]'>
               <p>

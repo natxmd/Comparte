@@ -24,7 +24,7 @@ export const Home = () => {
                </img>
                <p className='p1 mx-auto w-[94%] pb-[28px] pt-[16px]
                   lg:w-[840px] sm:pb-[40px] sm:pt-[32px]'>
-                  En nuestro pais, más de <span className='font-medium'>{" "}7 millones{" "}</span> de personas
+                  En nuestro país, más de <span className='font-medium'>{" "}7 millones{" "}</span> de personas
                   quedan expuestas a <span className='font-medium'>{" "}temperaturas extremas{" "}</span> entre
                   abril y septiembre, todos los años y cientos de ellas fallecen a causa de problemas respiratorios.
                </p>
@@ -35,7 +35,7 @@ export const Home = () => {
                xl:px-[94px] xl:pb-[90px] xl:pt-[40px]'>
                <div>
                   <h2 className='text-redC sm:max-w-[392px] mx-auto'>
-                     y
+                     Y
                      <span className='sm:text-[36px] font-medium'>
                         {" "}tú puedes ayudarnos{" "}
                      </span>
@@ -71,9 +71,10 @@ export const Home = () => {
                <div className='lgAux:mt-[80px]'>
                   <p className="p2">
                      A diferencia del friaje, que se presenta en la selva, donde el ingreso de una masa de aire frío
-                     proveniente de la Antártida genera lluvias intensas y el descenso brusco de temperaturas.
+                     proveniente de la Antártida genera lluvias intensas y el descenso brusco de temperaturas,
                      <br /> <br />
-                     Las <span className='font-semibold'>heladas</span> se presentan en la sierra y se caracterizan por la disminución prolongada de
+                     Las <span className='font-semibold text-[16px] sm:text-[20px]'>{" "} heladas {" "}</span>
+                     se presentan en la sierra y se caracterizan por la disminución prolongada de
                      la temperatura pudiendo  llegar hasta  -20°C con presencia de nieve y granizo afectando
                      gravemente al sur del  país y alcanzando su periodo más frío en los meses de junio y julio.
                   </p>
@@ -95,8 +96,8 @@ export const Home = () => {
             </div>
             <div className='bg-redC grid items-center
                rounded-[32px] py-[30px] gap-[20px]
-               sm:rounded-[56px] lgAux:grid-cols-[400px_1fr] lgAux:gap-[30px] lgAux:pb-[86px]
-               xl:grid-cols-[444px_1fr]'>
+               sm:rounded-[56px] lgAux:grid-cols-[400px_1fr] lgAux:gap-[30px] lgAux:py-[60px]
+               xl:grid-cols-[422px_1fr] xl:max-w-[1100px] mx-auto'>
                <img alt='Foto'
                   src='home/img-quienes-somos.png'
                   className=''>
@@ -114,18 +115,20 @@ export const Home = () => {
                      grid grid-cols-2 gap-x-[16px] gap-y-[20px] text-[14px]
                      md:gap-x-[20px] md:gap-y-[18px] sm:text-[24px]'>
                      <p className='font-normal col-span-2'>¡Síguenos en redes!</p>
-                     <div className='flex gap-[8px] items-center 
-                        justify-center cursor-pointer'>
+                     <a href='http://www.instagram.com/comparte.pe' target='_blank' rel='noreferrer'
+                        className='flex gap-[8px] items-center 
+                        justify-center cursor-pointer hover:underline transition-all ease-in'>
                         <img alt='' src='svg/instagram.svg'
                            className='w-[20px] sm:w-[40px]' />
                         <p>Comparte Perú</p>
-                     </div>
-                     <div className='flex gap-[8px] items-center 
-                        justify-center cursor-pointer'>
+                     </a>
+                     <a href='http://www.facebook.com/compartepe' target='_blank' rel='noreferrer'
+                        className='flex gap-[8px] items-center 
+                        justify-center cursor-pointer hover:underline transition-all ease-in'>
                         <img alt='' src='svg/facebook.svg'
                            className='w-[20px] sm:w-[40px]' />
                         <p>Comparte Perú</p>
-                     </div>
+                     </a>
                   </div>
                </div>
             </div>
@@ -144,14 +147,14 @@ export const Home = () => {
                grid grid-cols-2 gap-y-[24px] gap-x-[20px]
                lg:grid-cols-[1fr_1fr_398px] lg:gap-y-[36px] lg:gap-x-[40px]
                xl:gap-x-[96px]'>
-               <CardCifras number="10" text="Programas de voluntariado recurrente" />
-               <CardCifras number="+2,564" text="Voluntarios compartiendo su talento" />
+               <CardCifras number="10" text="programas de voluntariado recurrente" />
+               <CardCifras number="+2,564" text="voluntarios compartiendo su talento" />
                {isLg && <div></div>}
-               <CardCifras number="+41,237" text="Beneﬁciarios atendidos en todo el Perú" />
-               <CardCifras number="+79,194" text="Horas de trabajo voluntario compartidas" />
+               <CardCifras number="+41,237" text="beneﬁciarios atendidos en todo el Perú" />
+               <CardCifras number="+79,194" text="horas de trabajo voluntario compartidas" />
                <div className='mx-auto max-w-[250px] sm:max-w-[640px] lg:max-w-none
                   col-span-2 lg:col-span-1'>
-                  <CardCifras number="+S/164,000" text="Invertidos en nuestros programas y actividades de voluntariado y apoyo social " />
+                  <CardCifras number="+S/164,000" text="invertidos en nuestros programas y actividades de voluntariado y apoyo social " />
                </div>
                {isLg &&
                   <img alt='' src='/home/img-nuestra-historia.png'
@@ -198,9 +201,9 @@ export const Home = () => {
                   md:w-[80%] lg:w-[60%]'>
                   <div className='flex items-center gap-[12px]  justify-end'>
                      <img alt='' src='home/icons/conoce.png'
-                        className='w-[54px] sm:w-[56]'>
+                        className='w-[54px] sm:w-[77px]'>
                      </img>
-                     <h2 className='text-black text-center font-medium'>
+                     <h2 className='text-black text-center font-medium lg:leading-[]'>
                         <span className='text-[22px] md:text-[30px] lg:text-[32px]'> CONOCE QUÉ DONAR, </span>
                         <br />
                         <span className='text-[20px] md:text-[26px] lg:text-[32px]'>ABRIGUEMOS JUNTOS AL SUR PERUANO</span>
@@ -231,22 +234,22 @@ export const Home = () => {
                   py-[20px] md:py-[48px]'>
                </img>
                <div className='grid gap-[24px] sm:grid-cols-2 sm:gap-[40px]'>
-                  <CardOficinas title={'TERMINAL ARRIOLA:'} adress={'Av. Nicolás Arriola 780, La Victoria'} link={''}>
+                  <CardOficinas title={'TERMINAL ARRIOLA:'} adress={'Av. Nicolás Arriola 780, La Victoria'} link={'https://www.google.com/maps/place/Av+Nicol%C3%A1s+Arriola+780,+La+Victoria+15034/@-12.0661638,-77.0298409,12.21z/data=!4m6!3m5!1s0x9105c9d5e368492b:0xfbc2568df5ca09fd!8m2!3d-12.0821345!4d-77.0135127!16s%2Fg%2F11rv99msqz?entry=ttu'}>
                      <img src='svg/flower-yellow.svg' alt=''
                         className='absolute top-[-6px] left-[-6px]
                         w-[86px] md:w-[116px]'>
                      </img>
                   </CardOficinas>
-                  <CardOficinas title={"TERRAPUERTO <br/> DEL NORTE:"} adress={'Av. Tomas Valle 651, San Martín de Porres '} link={''}>
+                  <CardOficinas title={"TERRAPUERTO <br/> DEL NORTE:"} adress={'Av. Tomas Valle 651, San Martín de Porres '} link={'https://www.google.com/maps/place/Av.+Tom%C3%A1s+Valle+651,+San+Mart%C3%ADn+de+Porres+15103/@-12.010509,-77.068825,17z/data=!3m1!4b1!4m6!3m5!1s0x9105cee514255693:0x78678cb796f6a439!8m2!3d-12.010509!4d-77.0662501!16s%2Fg%2F11flkz_q0x?entry=ttu'}>
                      <img src='svg/flower-yellow.svg' alt=''
                         className='absolute bottom-[-6px] right-[-6px]
                         w-[86px] md:w-[116px]'>
                      </img>
                   </CardOficinas>
                </div>
-               <p className="p1 text-black pySection">
+               <p className="p1  text-redC pySection">
                   También puedes
-                  <span className='font-semibold'>{" "} Donar efectivo  {" "}</span>
+                  <span className='font-semibold '>{" "} donar efectivo  {" "}</span>
                   a través de estos canales:
                </p>
                {
@@ -295,7 +298,7 @@ export const Home = () => {
                      :
                      <CuentasSwiper />
                }
-               <div className='flex justify-center pt-[20px] lg:pt-[48px]'>
+               <div className='flex justify-center pt-[20px] lg:pt-[48px] sm:w-[512px] mx-auto '>
                   <BtnSalvaVidas />
                </div>
             </div>
@@ -313,17 +316,17 @@ export const Home = () => {
             <div className='container pySection'>
                {isDsk ?
                   <img className='w-full max-w-[1068px] mx-auto'
-                     src='home/auspiciadores/logos-big.png'>
+                     src='home/auspiciadores/logos-big.png' alt=''>
                   </img>
                   :
                   <img className='w-full max-w-[330px] mx-auto'
-                     src='home/auspiciadores/logos-small.png'>
+                     src='home/auspiciadores/logos-small.png' alt=''>
                   </img>
                }
                <div className='flex justify-center pySection'>
                   <BtnSuma />
                </div>
-               <p className='font-[Fredoka] text-center text-[14px] sm:text-[18px] max-w-[784px] mx-auto'>
+               <p className='font-[Fredoka] text-center text-[12px] sm:text-[14px] lg:text-[16px]'>
                   Campaña respaldada nominalmente por el Proyecto Especial Bicentenario 
                   de la Independencia del Perú, adscrito al Ministerio de Cultura.
                </p>

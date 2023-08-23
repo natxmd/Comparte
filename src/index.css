@@ -5,18 +5,19 @@
 @layer base {
   h2{
     @apply font-[Fredoka] text-center 
-    text-[24px] leading-[28px]
-    md:text-[30px] lg:text-[32px] sm:leading-normal
+    text-[24px] leading-[24px]
+    md:text-[30px] lg:text-[32px] sm:leading-[30px] lg:leading-[32px]
   }
 }
 @layer components {
   .p1{
     @apply font-[Fredoka] text-center text-white font-normal
-    text-[20px] sm:text-[24px] lg:text-[28px] leading-normal
+    text-[20px] sm:text-[24px] lg:text-[28px] 
+    leading-[20px] sm:leading-[24px] lg:leading-[26px] 
   }
   .p2{
     @apply font-[Fredoka] text-justify
-    text-[14px] sm:text-[18px] leading-normal
+    text-[14px] leading-[14px] sm:text-[18px] sm:leading-[18px]
   }
   .textNav{
     @apply font-[Fredoka] font-semibold !cursor-pointer
