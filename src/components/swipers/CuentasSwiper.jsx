@@ -41,45 +41,42 @@ export default function CuentasSwiper() {
             <SwiperSlide>
                <CardCuentas img='home/auspiciadores/bcp.png'>
                   <p className='textCuenta'>
-                     <span className='font-semibold'>Cuenta de AHORROS soles:</span> <br />
+                     <span className='font-[bariolBold]'>Cuenta de AHORROS soles:</span> <br />
                      191-91840916-0-00
                   </p>
                   <p className='textCuenta'>
-                     <span className='font-semibold'>Número de cuenta interbancaria(CCI):</span> <br />
+                     <span className='font-[bariolBold]'>Número de cuenta interbancaria(CCI):</span> <br />
                      002-19119184091600051
                   </p>
                   <p className='textCuenta'>
-                     <span className='font-semibold'>Titular:</span> <br />
+                     <span className='font-[bariolBold]'>Titular:</span> <br />
                      Asociación Comparte Perú
                   </p>
                </CardCuentas>
             </SwiperSlide>
             <SwiperSlide>
-               <CardCuentas img=''>
-                  <img alt='' src='home/icons/yape.png'
-                     className='mx-auto
-                     w-[82px] md:w-[94px]'>
-                  </img>
+               <CardCuentas img='home/icons/yape.png'>
                   <p className='textCuenta'>
-                     <span className='font-semibold'>YAPEA al número:</span> <br />
+                     <span className='font-[bariolBold]'>YAPEA al número:</span> <br />
                      979 996 681
                   </p>
                   <div className='flex gap-[4px] items-center justify-center'>
                      <p className='textCuenta'> Ahora también desde </p>
-                     <img alt='' src='home/icons/plin.png' className="w-[24px] md:w-[36px]"/>
+                     <img alt='' src='home/icons/plin.png' />
                   </div>
-                  <p className='textCuenta font-semibold'> O escanea este QR: </p>
-                  <img alt='' src='home/icons/qr-yape.png'  className='mx-auto w-[100px] md:w-[136px]' />
+                  <p className='textCuenta font-[bariolBold]'> O escanea este QR: </p>
+                  <img alt='' src='home/icons/qr-yape.png' className='mx-auto' />
                </CardCuentas>
             </SwiperSlide>
             <SwiperSlide>
                <CardCuentas img='home/icons/tarjeta.png'>
-                  <p className='textCuenta'>
-                     <span className='font-semibold'>Visita el Link </span> <br />
-                     <span className='text-[#1400FF] hover:text-redC transition-all ease-in'><a href='www.dona.comparteperu.com' target='_blank' rel='noreferrer'>
+                  <div className='textCuenta'>
+                     <p className='font-[bariolBold]'>Visita el Link </p>
+                     <a href='http://www.dona.comparteperu.com/' target='_blank' rel='noreferrer'
+                        className='text-[#1400FF] hover:text-redC transition-all ease-in'>
                         www.dona.comparteperu.com
-                     </a></span>
-                  </p>
+                     </a>
+                  </div>
                   <p className='textCuenta'>
                      Y utiliza cualquier tarjeta de crédito o débito nacional o internacional
                      y divide tu donación en las cuotas que prefieras.

@@ -26,9 +26,9 @@ export const BtnSalvaVidas = () => {
             onMouseLeave={handleUnhover}>
             <p
                style={{ color: textColor }}
-               className='font-[Fredoka] font-semibold text-center 
+               className='font-[bariolBold] text-center 
             text-[20px] leading-[20px] sm:text-[32px] sm:leading-[30px]'>
-               <span className='font-normal'>SALVA VIDAS</span><br />
+               <span className='font-[bariolRegular]'>SALVA VIDAS</span><br />
                ¡DONA AHORA!
             </p>
             <Heart color={svgColor} />

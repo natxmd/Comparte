@@ -24,8 +24,8 @@ export const Home = () => {
                </img>
                <p className='p1 mx-auto w-[94%] pb-[28px] pt-[16px]
                   lg:w-[840px] sm:pb-[40px] sm:pt-[32px]'>
-                  En nuestro país, más de <span className='font-medium'>{" "}7 millones{" "}</span> de personas
-                  quedan expuestas a <span className='font-medium'>{" "}temperaturas extremas{" "}</span> entre
+                  En nuestro país, más de <span className='font-[bariolBold]'>{" "}7 millones{" "}</span> de personas
+                  quedan expuestas a <span className='font-[bariolBold]'>{" "}temperaturas extremas{" "}</span> entre
                   abril y septiembre, todos los años y cientos de ellas fallecen a causa de problemas respiratorios.
                </p>
             </div>
@@ -36,7 +36,7 @@ export const Home = () => {
                <div>
                   <h2 className='text-redC sm:max-w-[392px] mx-auto'>
                      Y
-                     <span className='sm:text-[36px] font-medium'>
+                     <span className='sm:text-[36px] font-[bariolBold]'>
                         {" "}tú puedes ayudarnos{" "}
                      </span>
                      a enfrentar este fenómeno
@@ -73,7 +73,7 @@ export const Home = () => {
                      A diferencia del friaje, que se presenta en la selva, donde el ingreso de una masa de aire frío
                      proveniente de la Antártida genera lluvias intensas y el descenso brusco de temperaturas,
                      <br /> <br />
-                     Las <span className='font-semibold text-[16px] sm:text-[20px]'>{" "} heladas {" "}</span>
+                     Las <span className='font-[bariolBold] text-[16px] sm:text-[20px]'>{" "} heladas {" "}</span>
                      se presentan en la sierra y se caracterizan por la disminución prolongada de
                      la temperatura pudiendo  llegar hasta  -20°C con presencia de nieve y granizo afectando
                      gravemente al sur del  país y alcanzando su periodo más frío en los meses de junio y julio.
@@ -92,18 +92,18 @@ export const Home = () => {
             <div
                className='bg-cyanC mx-auto max-w-[246px] rounded-t-[24px] py-[10px]
                lgAux:bg-yellowC sm:max-w-[350px] sm:mx-0 sm:ml-[95px]'>
-               <h2 className='font-medium text-black lgAux:text-redC'>¿QUIÉNES SOMOS?</h2>
+               <h2 className='font-[bariolBold] text-black lgAux:text-redC'>¿QUIÉNES SOMOS?</h2>
             </div>
             <div className='bg-redC grid items-center
                rounded-[32px] py-[30px] gap-[20px]
-               sm:rounded-[56px] lgAux:grid-cols-[400px_1fr] lgAux:gap-[30px] lgAux:py-[60px]
-               xl:grid-cols-[422px_1fr] xl:max-w-[1100px] mx-auto'>
+               sm:rounded-[56px] lgAux:grid-cols-[400px_1fr] lgAux:gap-[30px] lgAux:py-[48px]
+               xl:grid-cols-[422px_1fr] xl:max-w-[1000px] mx-auto'>
                <img alt='Foto'
                   src='home/img-quienes-somos.png'
                   className=''>
                </img>
-               <div className='text-white px-[20px]'>
-                  <h2 className='text-left font-semibold'>ONG Comparte Perú</h2>
+               <div className='text-white px-[20px] xl:w-[95%]'>
+                  <h2 className='text-left font-[bariolBold]'>ONG Comparte Perú</h2>
                   <p className='p2 py-[18px]'>
                      Somos una asociación civil sin ﬁnes de lucro, enfocada en la promoción y articulación
                      del trabajo voluntario a través de actividades de refuerzo de la educación, salud mental,
@@ -111,10 +111,10 @@ export const Home = () => {
                      <br /> <br />
                      En 8 años, hemos atendido a más de 40,000 beneﬁciarios gracias al apoyo de nuestros más de 2,300 voluntarios en todo el país.
                   </p>
-                  <div className='font-[Fredoka] font-medium 
+                  <div className='font-[bariolBold]
                      grid grid-cols-2 gap-x-[16px] gap-y-[20px] text-[14px]
                      md:gap-x-[20px] md:gap-y-[18px] sm:text-[24px]'>
-                     <p className='font-normal col-span-2'>¡Síguenos en redes!</p>
+                     <p className='font-[BariolRegular] col-span-2'>¡Síguenos en redes!</p>
                      <a href='http://www.instagram.com/comparte.pe' target='_blank' rel='noreferrer'
                         className='flex gap-[8px] items-center 
                         justify-center cursor-pointer hover:underline transition-all ease-in'>
@@ -139,7 +139,7 @@ export const Home = () => {
             <div className='bg-cyanC w-[78%] py-[8px] pr-[28px] rounded-r-[36px]
                sm:w-[80%] sm:py-[16px] sm:pr-[36px]
                md:w-[66%] lg:w-[50%]'>
-               <h2 className='text-black text-right font-medium'>
+               <h2 className='text-black text-right font-[bariolBold]'>
                   NUESTRA HISTORIA EN CIFRAS:
                </h2>
             </div>
@@ -173,7 +173,7 @@ export const Home = () => {
                      rounded-t-[32px] md:rounded-t-[56px]'>
                   </img>
                   <p className='absolute w-[218px] sm:w-[450px] md:w-[656px]
-                     font-[Fredoka] font-semibold text-white text-center
+                     font-[bariolBold] text-white text-center
                      text-[20px] sm:text-[24px] md:text-[32px]
                      translate-x-[50%] right-[50%] translate-y-[50%] bottom-[50%]'>
                      ¿Cómo podemos ayudar a mejorar la calidad de vida de las familias del sur del Perú?
@@ -203,7 +203,7 @@ export const Home = () => {
                      <img alt='' src='home/icons/conoce.png'
                         className='w-[54px] sm:w-[77px]'>
                      </img>
-                     <h2 className='text-black text-center font-medium lg:leading-[]'>
+                     <h2 className='text-black text-center font-[bariolBold] lg:leading-[]'>
                         <span className='text-[22px] md:text-[30px] lg:text-[32px]'> CONOCE QUÉ DONAR, </span>
                         <br />
                         <span className='text-[20px] md:text-[26px] lg:text-[32px]'>ABRIGUEMOS JUNTOS AL SUR PERUANO</span>
@@ -224,9 +224,9 @@ export const Home = () => {
                </div>
             </div>
             <div className='container'>
-               <p className="p1 text-black max-w-[980px] mx-auto">
+               <p className="p1 text-black max-w-[860px] mx-auto">
                   Asegúrate que todos los productos estén en limpios y en buen estado y
-                  <span className='font-semibold'>{" "} llévalos, hasta el 30/08, {" "}</span>
+                  <span className='font-[bariolBold]'>{" "} llévalos, hasta el 30/08, {" "}</span>
                   a nuestros puntos de acopio en las oﬁcinas de:
                </p>
                <img src='home/icons/movilBus-big.png' alt='movil bus'
@@ -249,7 +249,7 @@ export const Home = () => {
                </div>
                <p className="p1  text-redC pySection">
                   También puedes
-                  <span className='font-semibold '>{" "} donar efectivo  {" "}</span>
+                  <span className='font-[bariolBold] '>{" "} donar efectivo  {" "}</span>
                   a través de estos canales:
                </p>
                {
@@ -257,33 +257,33 @@ export const Home = () => {
                      <div className='grid grid-cols-3 gap-[30px]'>
                         <CardCuentas img='home/auspiciadores/bcp.png'>
                            <p className='textCuenta'>
-                              <span className='font-semibold'>Cuenta de AHORROS soles:</span> <br />
+                              <span className='font-[bariolBold]'>Cuenta de AHORROS soles:</span> <br />
                               191-91840916-0-00
                            </p>
                            <p className='textCuenta'>
-                              <span className='font-semibold'>Número de cuenta interbancaria(CCI):</span> <br />
+                              <span className='font-[bariolBold]'>Número de cuenta interbancaria(CCI):</span> <br />
                               002-19119184091600051
                            </p>
                            <p className='textCuenta'>
-                              <span className='font-semibold'>Titular:</span> <br />
+                              <span className='font-[bariolBold]'>Titular:</span> <br />
                               Asociación Comparte Perú
                            </p>
                         </CardCuentas>
                         <CardCuentas img='home/icons/yape.png'>
                            <p className='textCuenta'>
-                              <span className='font-semibold'>YAPEA al número:</span> <br />
+                              <span className='font-[bariolBold]'>YAPEA al número:</span> <br />
                               979 996 681
                            </p>
                            <div className='flex gap-[4px] items-center justify-center'>
                               <p className='textCuenta'> Ahora también desde </p>
                               <img alt='' src='home/icons/plin.png' />
                            </div>
-                           <p className='textCuenta font-semibold'> O escanea este QR: </p>
+                           <p className='textCuenta font-[bariolBold]'> O escanea este QR: </p>
                            <img alt='' src='home/icons/qr-yape.png' className='mx-auto' />
                         </CardCuentas>
                         <CardCuentas img='home/icons/tarjeta.png'>
                            <div className='textCuenta'>
-                              <p className='font-semibold'>Visita el Link </p>
+                              <p className='font-[bariolBold]'>Visita el Link </p>
                               <a href='http://www.dona.comparteperu.com/' target='_blank' rel='noreferrer'
                                  className='text-[#1400FF] hover:text-redC transition-all ease-in'>
                                  www.dona.comparteperu.com
@@ -311,7 +311,7 @@ export const Home = () => {
                <p className='p1 w-[78%] mx-auto py-[32px] sm:py-[60px] lg:py-[84px]'>
                   El trabajo en equipo siempre da mejores resultados
                   <br />
-                  <span className='font-semibold'>¡Conoce a nuestros aliados!</span>
+                  <span className='font-[bariolBold]'>¡Conoce a nuestros aliados!</span>
                </p>
             </div>
             <div className='container pySection'>
@@ -327,7 +327,7 @@ export const Home = () => {
                <div className='flex justify-center pySection'>
                   <BtnSuma />
                </div>
-               <p className='font-[Fredoka] text-center text-[12px] sm:text-[14px] lg:text-[16px]'>
+               <p className='font-[bariolRegular] text-center text-[12px] sm:text-[14px] lg:text-[18px]'>
                   Campaña respaldada nominalmente por el Proyecto Especial Bicentenario 
                   de la Independencia del Perú, adscrito al Ministerio de Cultura.
                </p>

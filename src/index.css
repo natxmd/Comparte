@@ -2,36 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "bariolRegular";
+  src: url(/src/fonts/Bariol_Regular.otf);
+}
+
+@font-face {
+  font-family: "bariolMedium";
+  src: url(/src/fonts/Barlow-Medium.ttf);
+}
+
+@font-face {
+  font-family: "bariolBold";
+  src: url(/src/fonts/Bariol_Bold.otf);
+}
+
 @layer base {
   h2{
-    @apply font-[Fredoka] text-center 
+    @apply font-[bariolRegular] text-center 
     text-[24px] leading-[24px]
     md:text-[30px] lg:text-[32px] sm:leading-[30px] lg:leading-[32px]
   }
 }
 @layer components {
   .p1{
-    @apply font-[Fredoka] text-center text-white font-normal
+    @apply font-[bariolRegular] text-center text-white font-normal
     text-[20px] sm:text-[24px] lg:text-[28px] 
-    leading-[20px] sm:leading-[24px] lg:leading-[26px] 
+    leading-[20px] sm:leading-[24px] lg:leading-[28px] 
   }
   .p2{
-    @apply font-[Fredoka] text-justify
+    @apply font-[bariolRegular] text-justify
     text-[14px] leading-[14px] sm:text-[18px] sm:leading-[18px]
   }
   .textNav{
-    @apply font-[Fredoka] font-semibold !cursor-pointer
+    @apply font-[bariolBold] !cursor-pointer
     text-center text-[20px] sm:text-[18px] text-white
   }
   .textNavMb{
-    @apply font-[Fredoka] font-semibold !cursor-pointer w-full
+    @apply font-[bariolBold] !cursor-pointer w-full
     text-center text-[20px] text-white py-[30px] hover:bg-gray-700
   }
   .pySection{
     @apply py-[32px] sm:py-[48px]
   }
   .textCuenta{
-    @apply font-[Fredoka] text-center 
+    @apply font-[bariolRegular] text-center 
     text-[20px] sm:text-[24px] 
   }
 }

@@ -8,7 +8,7 @@ export const Rrss = ({rs, icon, link}) => {
         <img alt={rs} src={icon}
             className='w-[32px]'>
         </img>
-        <p className='font-[Fredoka] font-light text-[18px] text-white'>
+        <p className='font-[bariolRegular] text-[18px] text-white'>
             {rs}
         </p>
     </a>

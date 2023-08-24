@@ -26,7 +26,7 @@ export const BtnDonaAqui = () => {
             onMouseLeave={handleUnhover}>
             <p
                style={{ color: textColor }}
-               className='font-[Fredoka] font-semibold text-center 
+               className='font-[bariolBold] text-center 
             text-[20px] sm:text-[18px]'>
                ¡DONA AQUÍ!
             </p>
