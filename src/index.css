@@ -29,11 +29,11 @@
   .p1{
     @apply font-[bariolRegular] text-center text-white font-normal
     text-[20px] sm:text-[24px] lg:text-[28px] 
-    leading-[20px] sm:leading-[24px] lg:leading-[28px] 
+    leading-[22px] sm:leading-[26px] lg:leading-[30px] 
   }
   .p2{
-    @apply font-[bariolRegular] text-justify
-    text-[14px] leading-[14px] sm:text-[18px] sm:leading-[18px]
+    @apply font-[bariolRegular] 
+    text-[14px] leading-[16px] sm:text-[18px] sm:leading-[20px]
   }
   .textNav{
     @apply font-[bariolBold] !cursor-pointer
@@ -48,7 +48,7 @@
   }
   .textCuenta{
     @apply font-[bariolRegular] text-center 
-    text-[20px] sm:text-[24px] 
+    text-[20px] leading-[22px] sm:text-[24px] sm:leading-[28px]
   }
 }
 

@@ -7,7 +7,7 @@ export const CardCifras = ({number, text}) => {
             text-[44px] sm:text-[64px]'>
             {number}
         </p>
-        <p className='font-[bariolRegular] text-[20px] sm:text-[32px] sm:leading-[30px]'>
+        <p className='font-[bariolRegular] text-[20px] leading-[22px] sm:text-[32px] sm:leading-[30px]'>
             {text}
         </p>
     </div>

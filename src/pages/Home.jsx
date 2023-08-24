@@ -172,9 +172,10 @@ export const Home = () => {
                      className='w-full
                      rounded-t-[32px] md:rounded-t-[56px]'>
                   </img>
-                  <p className='absolute w-[218px] sm:w-[450px] md:w-[656px]
+                  <p className='absolute w-[242px] sm:w-[450px] md:w-[656px]
                      font-[bariolBold] text-white text-center
                      text-[20px] sm:text-[24px] md:text-[32px]
+                     leading-[24px] sm:leading-[26px] md:leading-[34px]
                      translate-x-[50%] right-[50%] translate-y-[50%] bottom-[50%]'>
                      ¿Cómo podemos ayudar a mejorar la calidad de vida de las familias del sur del Perú?
                   </p>
@@ -185,7 +186,7 @@ export const Home = () => {
                   lg:w-[180px] lg:left-[-8%] lg:bottom-[-22%]'>
                   </img>
                </div>
-               <p className='p1 mx-auto w-[94%] pb-[28px] pt-[20px] !text-justify
+               <p className='p1 mx-auto w-[92%] pb-[28px] pt-[20px] text-left
                   xl:w-[980px] sm:pb-[40px] sm:pt-[32px] lg:py-[56px]'>
                   Colaborando con esta campaña solidaria, cuyo propósito es reducir la vulnerabilidad de la población
                   expuesta a las heladas en comunidades de Cusco y Puno, llevándoles
@@ -196,7 +197,7 @@ export const Home = () => {
                </p>
             </div>
             <div className='pySection'>
-               <div className='bg-cyanC w-[98%] py-[8px] pl-[12px] pr-[28px] rounded-r-[212px]
+               <div className='bg-cyanC w-[94%] py-[8px] pl-[12px] pr-[28px] rounded-r-[212px]
                   sm:w-[80%] sm:py-[16px] sm:px-[36px]
                   md:w-[80%] lg:w-[60%]'>
                   <div className='flex items-center gap-[12px]  justify-end'>
@@ -231,7 +232,7 @@ export const Home = () => {
                </p>
                <img src='home/icons/movilBus-big.png' alt='movil bus'
                   className='max-w-[288px] sm:max-w-[410px] mx-auto
-                  py-[20px] md:py-[48px]'>
+                  py-[32px] md:py-[48px]'>
                </img>
                <div className='grid gap-[24px] sm:grid-cols-2 sm:gap-[40px]'>
                   <CardOficinas title={'TERMINAL ARRIOLA:'} adress={'Av. Nicolás Arriola 780, La Victoria'} link={'https://www.google.com/maps/place/Av+Nicol%C3%A1s+Arriola+780,+La+Victoria+15034/@-12.0661638,-77.0298409,12.21z/data=!4m6!3m5!1s0x9105c9d5e368492b:0xfbc2568df5ca09fd!8m2!3d-12.0821345!4d-77.0135127!16s%2Fg%2F11rv99msqz?entry=ttu'}>
@@ -327,7 +328,7 @@ export const Home = () => {
                <div className='flex justify-center pySection'>
                   <BtnSuma />
                </div>
-               <p className='font-[bariolRegular] text-center text-[12px] sm:text-[14px] lg:text-[18px]'>
+               <p className='font-[bariolRegular] text-center text-[14px] lg:text-[18px]'>
                   Campaña respaldada nominalmente por el Proyecto Especial Bicentenario 
                   de la Independencia del Perú, adscrito al Ministerio de Cultura.
                </p>
