@@ -282,12 +282,13 @@ export const Home = () => {
                            <img alt='' src='home/icons/qr-yape.png' className='mx-auto' />
                         </CardCuentas>
                         <CardCuentas img='home/icons/tarjeta.png'>
-                           <p className='textCuenta'>
-                              <span className='font-semibold'>Visita el Link </span> <br />
-                              <span className='text-[#1400FF] hover:text-redC transition-all ease-in'><a href='www.dona.comparteperu.com' target='_blank' rel='noreferrer'>
+                           <div className='textCuenta'>
+                              <p className='font-semibold'>Visita el Link </p>
+                              <a href='http://www.dona.comparteperu.com/' target='_blank' rel='noreferrer'
+                                 className='text-[#1400FF] hover:text-redC transition-all ease-in'>
                                  www.dona.comparteperu.com
-                              </a></span>
-                           </p>
+                              </a>
+                           </div>
                            <p className='textCuenta'>
                               Y utiliza cualquier tarjeta de crédito o débito nacional o internacional
                               y divide tu donación en las cuotas que prefieras.
