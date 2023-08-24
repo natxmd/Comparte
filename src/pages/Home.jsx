@@ -78,8 +78,7 @@ export const Home = () => {
                      la temperatura pudiendo  llegar hasta  -20°C con presencia de nieve y granizo afectando
                      gravemente al sur del  país y alcanzando su periodo más frío en los meses de junio y julio.
                   </p>
-                  <div className='flex w-full mx-auto
-                     max-w-[280px] mt-[20px]
+                  <div className='flex w-[280px] mx-auto mt-[20px]
                      lgAux:max-w-[200px] lgAux:mx-0'>
                      <BtnDonaAquiSmall />
                   </div>
@@ -138,7 +137,7 @@ export const Home = () => {
             className='pySection'>
             <div className='bg-cyanC w-[78%] py-[8px] pr-[28px] rounded-r-[36px]
                sm:w-[80%] sm:py-[16px] sm:pr-[36px]
-               md:w-[66%] lg:w-[50%]'>
+               md:w-[66%] lg:w-[50%] xl:w-[45%]'>
                <h2 className='text-black text-right font-[bariolBold]'>
                   NUESTRA HISTORIA EN CIFRAS:
                </h2>
