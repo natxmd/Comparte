@@ -10,7 +10,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       setSplash(false);
-    }, 4000);
+    }, 2000);
   }, []);
   return (
     <AnimatePresence>
