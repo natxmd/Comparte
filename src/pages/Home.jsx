@@ -226,7 +226,7 @@ export const Home = () => {
             <div className='container'>
                <p className="p1 text-black max-w-[860px] mx-auto">
                   Asegúrate que todos los productos estén en limpios y en buen estado y
-                  <span className='font-[bariolBold]'>{" "} llévalos, hasta el 30/08, {" "}</span>
+                  <span className='font-[bariolBold]'>{" "} llévalos, hasta el 15/09, {" "}</span>
                   a nuestros puntos de acopio en las oﬁcinas de:
                </p>
                <img src='home/icons/movilBus-big.png' alt='movil bus'
